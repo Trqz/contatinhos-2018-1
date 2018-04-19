@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Agendinha</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/text.css" />
+    <link rel="stylesheet" href="css/960.css" />
+        <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="container_12">
+      <h1>Agenda</h1>
+      <div class="grid_12">
+        <p>
+          <form class="" action="index.html" method="post">
+            <input type="text" id="nome" name="task" value="" placeholder="Nome">
+            <input type="text" id="telefone" name="task" value="" placeholder="Telefone">
+            <br />
+            <button type="button" id="button" name="ContatoAdd">Adicionar Contato</button>
+          </form>
+        </p>
+      </div>
+      <div class="clear"></div>
+      <div class="grid_12 tasklistheader">
+        <h2>Contatos</h2>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="container_12 tasklist" id="list">
+      <p>Você não possui nenhum contatinho :(</p>
+    </div>
+    <script type="text/javascript" src="model/task.js"></script>
+    <script type="text/javascript" src="model/taskCollection.js"></script>
+    <script type="text/javascript" src="controller/taskController.js"></script>
+    <script type="text/javascript" src="view/taskView.js"></script>    
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
