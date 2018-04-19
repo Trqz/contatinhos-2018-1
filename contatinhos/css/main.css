@@ -43,6 +43,7 @@ form {
 .tasklist{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .task_container  {
